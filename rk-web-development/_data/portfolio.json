@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Tajonera Events and Services – A Signature by RDT",
+    "category": "Lights and Sound System",
+    "tag": "Website",
+    "description": "Tajonera Events and Services is a premium event management brand dedicated to transforming visions into extraordinary moments. Every occasion, a masterpiece.",
+    "image": "tajonera.png",
+    "gradient": "linear-gradient(135deg,#1a1a2e,#0f3460)",
+    "link": "https://reymancasio5-bit.github.io/tajonera-events-services/"
+  },
+  {
+    "title": "FlornHub",
+    "category": "CCTV Installation",
+    "tag": "Website",
+    "description": "A professional CCTV installation service offering end-to-end security systems, remote monitoring, and expert setup for homes and businesses of all sizes.",
+    "image": "FlornHub.png",
+    "gradient": "linear-gradient(135deg,#2d1b00,#8b4513)",
+    "link": "https://reymancasio5-bit.github.io/FlornHub/#"
+  }
+]

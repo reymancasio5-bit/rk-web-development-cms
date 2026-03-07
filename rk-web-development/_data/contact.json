@@ -1,0 +1,14 @@
+{
+  "headline": "Ready to Start Your Project?",
+  "subtext": "Let's discuss your vision and build something extraordinary together.",
+  "email": "reymancasio.5@gmail.com",
+  "phone": "+639638291756",
+  "calendlyLink": "https://calendly.com/reymancasio-5/30min",
+  "ctaLabel": "Book a Call",
+  "socials": [
+    { "platform": "LinkedIn",  "href": "https://www.linkedin.com/in/reyman-casio-112ba83aa?utm_source=share_via&utm_content=profile&utm_medium=member_android", "icon": "fa fa-linkedin"  },
+    { "platform": "Facebook",  "href": "https://web.facebook.com/reyman.casio.5",                                                                                "icon": "fa fa-facebook"  },
+    { "platform": "GitHub",    "href": "https://github.com/reymancasio5-bit",                                                                                    "icon": "fa fa-github"    },
+    { "platform": "Instagram", "href": "https://www.instagram.com/kim_arkeey?igsh=MWdqdHhzZXp5MHVwaw==",                                                        "icon": "fa fa-instagram" }
+  ]
+}
