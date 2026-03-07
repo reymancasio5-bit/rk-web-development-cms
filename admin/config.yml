@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: reymancasio5-bit/rk-web-development
+  repo: reymancasio5-bit/rk-web-development-cms
   branch: main
   base_url: https://decapcms.org
   auth_endpoint: /api/auth
@@ -154,4 +154,5 @@ collections:
             fields:
               - { label: "Platform", name: "platform", widget: "string" }
               - { label: "URL",      name: "href",     widget: "string" }
+
               - { label: "Icon",     name: "icon",     widget: "string", hint: "e.g. fa fa-linkedin" }
