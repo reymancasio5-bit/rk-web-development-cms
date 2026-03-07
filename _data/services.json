@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "fa fa-code",
+    "title": "Website Development",
+    "description": "Custom-built websites from scratch using modern technologies. Pixel-perfect, fast, and scalable.",
+    "features": ["React / Next.js", "WordPress", "E-Commerce"]
+  },
+  {
+    "icon": "fa fa-paint-brush",
+    "title": "Website Redesign",
+    "description": "Transform your outdated site into a modern, high-converting digital asset that stands out.",
+    "features": ["UI/UX Overhaul", "Brand Refresh", "Performance Boost"]
+  },
+  {
+    "icon": "fa fa-rocket",
+    "title": "Landing Page Creation",
+    "description": "Laser-focused landing pages engineered to convert visitors into leads and paying customers.",
+    "features": ["CRO Optimized", "A/B Test Ready", "Fast Load Times"]
+  },
+  {
+    "icon": "fa fa-tachometer",
+    "title": "Website Optimization",
+    "description": "Speed, SEO, and UX audits that boost your site performance and search engine rankings.",
+    "features": ["SEO Optimization", "Core Web Vitals", "Security Hardening"]
+  }
+]

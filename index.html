@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RK Web Development — Premium Website Services</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 4.7 (works fully offline/CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BACKGROUND -->
+  <div id="bg-media"></div>
+
+  <!-- MOBILE NAV -->
+  <div id="mobile-nav" class="mobile-nav">
+
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="logo.png" alt="RK Web Development">
+    </a>
+    <ul id="nav-links-list" class="nav-links"></ul>
+    <button id="hamburger" class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- SITE CONTENT -->
+  <div id="site-wrapper">
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div id="hero-badge" class="hero-badge fade-in"></div>
+          <h1 class="hero-title fade-in">
+            <span id="hero-headline"></span>
+            <span id="hero-headline-accent" class="accent"></span>
+          </h1>
+          <p id="hero-sub" class="hero-sub fade-in"></p>
+          <div class="hero-ctas fade-in">
+            <a id="hero-cta-primary"   href="#contact"   class="btn btn-primary"></a>
+            <a id="hero-cta-secondary" href="#portfolio"  class="btn btn-secondary"></a>
+          </div>
+          <div id="hero-stats" class="hero-stats fade-in"></div>
+        </div>
+
+        <!-- Glass Panel -->
+        <div class="hero-glass-panel fade-in">
+          <div class="panel-tag">&#10022; Start Your Project</div>
+          <h2 class="panel-title">Let's Build Something<br>Remarkable</h2>
+          <p class="panel-subtitle">Tell us what you need — we'll make it happen.</p>
+          <div class="panel-feature">
+            <span class="panel-feature-icon"><i class="fa fa-bolt"></i></span>
+            <div class="panel-feature-text"><strong>Fast Turnaround</strong><span>Most projects in 2–4 weeks</span></div>
+          </div>
+          <div class="panel-feature">
+            <span class="panel-feature-icon"><i class="fa fa-paint-brush"></i></span>
+            <div class="panel-feature-text"><strong>Bespoke Design</strong><span>No templates — 100% custom</span></div>
+          </div>
+          <div class="panel-feature">
+            <span class="panel-feature-icon"><i class="fa fa-mobile"></i></span>
+            <div class="panel-feature-text"><strong>Mobile-First</strong><span>Perfect on every device</span></div>
+          </div>
+          <div class="panel-feature">
+            <span class="panel-feature-icon"><i class="fa fa-lock"></i></span>
+            <div class="panel-feature-text"><strong>Ongoing Support</strong><span>30-day post-launch care</span></div>
+          </div>
+          <a href="#contact" class="btn btn-primary btn-full panel-cta">Book a Strategy Call <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="services-header fade-in">
+        <span class="section-label">What I Do</span>
+        <h2 class="section-title">Services That Scale<br>Your Business</h2>
+        <p class="section-sub">Front-end web development — from concept to launch and beyond.</p>
+      </div>
+      <div id="services-grid" class="services-grid"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="portfolio-header fade-in">
+        <div>
+          <span class="section-label">My Work</span>
+          <h2 class="section-title">Projects I am<br>Proud Of</h2>
+        </div>
+        <a href="#contact" class="btn btn-secondary">Start Your Project <i class="fa fa-arrow-right"></i></a>
+      </div>
+      <div id="portfolio-grid" class="portfolio-grid"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-inner">
+        <div class="about-visual fade-in">
+          <div class="about-img-wrap">
+            <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Developer at work">
+          </div>
+          <div class="about-badge glass">
+            <div class="big-num" id="about-years"></div>
+            <div class="big-label">Years of<br>Excellence</div>
+          </div>
+        </div>
+        <div class="about-content fade-in">
+          <span class="section-label">About RK</span>
+          <h2 id="about-headline" class="section-title"></h2>
+          <p id="about-desc" class="section-sub" style="margin-bottom:0;"></p>
+          <div id="about-highlights" class="about-highlights"></div>
+          <div style="margin-top:32px;">
+            <a href="#contact" class="btn btn-primary">Work With Me <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-inner">
+        <div class="contact-info fade-in">
+          <span class="section-label">Get In Touch</span>
+          <h2 id="contact-headline"></h2>
+          <p id="contact-subheadline"></p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+              <a id="contact-email" href="#"></a>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa fa-phone"></i></div>
+              <a id="contact-phone" href="#"></a>
+            </div>
+          </div>
+          <div id="socials" class="socials"></div>
+          <div style="margin-top:28px;">
+            <div class="booking-divider">or book directly</div>
+            <a id="booking-cta" href="#" class="btn btn-primary btn-full" style="margin-top:14px;">
+              <i class="fa fa-calendar"></i> &nbsp;
+            </a>
+          </div>
+        </div>
+        <div class="fade-in">
+          <form id="contact-form" class="glass contact-form" style="padding:36px;">
+            <!-- Web3Forms -->
+            <input type="hidden" name="access_key" value="d603a820-4b6f-4cb9-a71f-609642cd0470">
+            <input type="hidden" name="subject" value="New Project Inquiry — RK Web Development">
+            <input type="hidden" name="from_name" value="RK Web Development Website">
+            <input type="checkbox" name="botcheck" style="display:none;">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" name="name" placeholder="John Smith" required>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="john@company.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Service Needed</label>
+              <select name="service">
+                <option>Select a service...</option>
+                <option>Website Development</option>
+                <option>Website Redesign</option>
+                <option>Landing Page Creation</option>
+                <option>Website Optimization</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Project Budget</label>
+              <select name=budget>
+                <option>Select a range...</option>
+                <option>Under ₱2,999</option>
+                <option>₱3,000 – ₱4,999</option>
+                <option>₱5,000 – ₱6,500</option>
+                <option>₱6,500 – ₱8,000</option>
+                <option>₱10,000+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Tell Us About Your Project</label>
+              <textarea name="message" rows="4" placeholder="Share your vision, goals, and requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa fa-paper-plane"></i>&nbsp; Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /#site-wrapper -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">
+      <img src="logo.png" alt="RK Web Development">
+    </div>
+    <p class="footer-copy">&#169; 2026 <span>RK Web Development</span>. Crafted with passion.</p>
+    <div id="footer-socials" class="socials"></div>
+  </footer>
+
+  <!-- Scripts: config.js MUST come before script.js -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
