@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: reymancasio5-bit/rk-web-development-cms
+  name: git-gateway
   branch: main
-  base_url: https://chipper-hamster-0616f7.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
