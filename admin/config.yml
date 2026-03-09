@@ -2,7 +2,7 @@ backend:
   name: github
   repo: reymancasio5-bit/rk-web-development-cms
   branch: main
-  base_url: chipper-hamster-0616f7.netlify.app
+  base_url: https://chipper-hamster-0616f7.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -155,5 +155,6 @@ collections:
               - { label: "URL",      name: "href",     widget: "string" }
 
               - { label: "Icon",     name: "icon",     widget: "string", hint: "e.g. fa fa-linkedin" }
+
 
 
